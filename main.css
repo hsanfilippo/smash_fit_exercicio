@@ -1,0 +1,120 @@
+header {
+    background-color: #fff;
+}
+
+.navbar img {
+    max-height: 100px;
+}
+
+#estrutura h2 {
+    color: rgb(253, 194, 67);
+}
+
+#estrutura h4 {
+    color: rgb(0, 0, 0);
+}
+
+.modalidades h4 {
+    color: rgb(253, 194, 67);
+}
+
+.tmj {
+    color:  #fdc243;
+}
+
+.tmj span {
+    color:  #000;
+}
+
+.planos-title h3 {
+    background-color: #4343fd;
+    border-radius: 32px;
+    color: #fff;
+}
+
+.planos-title p {
+    text-align: center; 
+    color: rgb(253, 194, 67);
+}
+
+.bg-blue {
+    background-color: rgba(0, 38, 255, 0.05);
+}
+
+.descricao, 
+.bi-x-circle  {
+    color: #868686;
+    margin: 1px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #4343fd;
+}
+
+footer a,
+footer p {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+footer img {
+    height: 70px;
+    margin-right: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .carousel-large {
+        display: none;
+    }
+
+    .planos-title h3 {
+        font-size: large;
+    }
+
+    .planos-title h5 {
+        font-size: medium;
+    }
+
+    .estrutura-large {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .carousel-large {
+        display: none;
+    }
+
+    .estrutura-large {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .carousel-small {
+        display:none;
+    }
+
+    .estrutura-mobile {
+        display: none;
+    }
+}

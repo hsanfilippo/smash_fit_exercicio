@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-1 text-center" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0"><img src="./images/visual-id/smash-logo-allmight.png"/></h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#estrutura" class="nav-link">
+                            <i class="bi bi-building"></i>
+                            Nossa estrutura
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#instrutores" class="nav-link">
+                            <i class="bi bi-universal-access"></i>
+                            Instrutores
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#planos" class="nav-link">
+                            <i class="bi bi-person-lines-fill"></i>
+                            Planos e matrícula
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-right-dots-fill"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+
+        <div id="carousel-small-target" class="carousel slide carousel-small" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-small-target" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-small-target" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-small-target" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner carousel-lg">
+                <div class="carousel-item active">
+                <img src="./images/carousel/carousel-mobile-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="./images/carousel/carousel-mobile-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="./images/carousel/carousel-mobile-3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-small-target" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-small-target" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div id="carousel-large-target" class="carousel slide carousel-large" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-large-target" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-large-target" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-large-target" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="./images/carousel/carousel-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="./images/carousel/carousel-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="./images/carousel/carousel-3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-large-target" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-large-target" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <section class="mt-5" id="estrutura">
+            <div class="container estrutura-large">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-5 ">
+                        <img class="w-100 rounded" src="https://imageio.forbes.com/specials-images/imageserve/6487b36b79ce7a9e843a1f50/0x0.jpg?format=jpg&width=1200" alt="interior da academia"/>
+                    </div>
+                    <div class="col-7 estrutura-text">
+                        <h2 class="fw-bold">ESPAÇO </br>INCLUSIVO</h2>
+                        <h4>Ambiente</h4>
+                        <p>Preparamos nossa estrutura para que você se preocupe apenas com os resultados de um treino muito bem executado.</p>
+                        <h4>Ajuda</h4>
+                        <p>Contamos com uma equipe de profissionais formados, prontos para te auxiliar no que for preciso.</p>
+                        <h4>Instalações</h4>
+                        <p>Vestiário, armários, banheiros e chuveiros individuais, para se adequar melhor à sua necessidade.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container estrutura-mobile">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-5">
+                        <img class="w-100 rounded mb-4" src="https://imageio.forbes.com/specials-images/imageserve/6487b36b79ce7a9e843a1f50/0x0.jpg?format=jpg&width=1200" alt="interior da academia"/>
+                    </div>
+                    <div class="col-12 estrutura-text text-center">
+                        <h2 class="fw-bold">ESPAÇO </br>INCLUSIVO</h2>
+                        <h4>Ambiente</h4>
+                        <p>Preparamos nossa estrutura para que você se preocupe apenas com os resultados de um treino muito bem executado.</p>
+                        <h4>Ajuda</h4>
+                        <p>Contamos com uma equipe de profissionais formados, prontos para te auxiliar no que for preciso.</p>
+                        <h4>Instalações</h4>
+                        <p>Vestiário, armários, banheiros e chuveiros individuais, para se adequar melhor à sua necessidade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5" id="instrutores">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center fw-bold mt-2 mb-3">INSTRUTORES À DISPOSIÇÃO</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img class="w-100 rounded" src="./images/instrutores/instrutores-1.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="w-100 rounded" src="./images/instrutores/instrutores-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="w-100 rounded" src="./images/instrutores/instrutores-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center">
+                        <h2 class="fw-bold mt-2 mb-3 tmj"><span>#</span>TAMOJUNTO</h2>
+                        <h4>A SMASH Fit é um ambiente seguro para experimentar</h4>
+                        <p>São diversas modalidades, com instrutores preparados para te auxiliar, para que você consiga experimentar diferentes maneiras de se exercitar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-2">
+                            <div class="text-center modalidades">
+                                <img class="w-50" src="./images/icons/musculacao-vector.png" alt="">
+                                <h4 class="mt-3 mb-3">Musculação</h4>
+                            </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-2">
+                            <div class="text-center modalidades">
+                                <img class="w-50" src="./images/icons/crossfit-vector.png" alt="">
+                                <h4 class="mt-3 mb-3">Crossfit</h4>
+                            </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-2">
+                            <div class="text-center modalidades">
+                                <img class="w-50" src="./images/icons/spinning-vector.png" alt="">
+                                <h4 class="mt-3 mb-3">Spinning</h4>
+                            </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-2">
+                            <div class="text-center modalidades">
+                                <img class="w-50" src="./images/icons/boxing-vector.png" alt="">
+                                <h4 class="mt-3 mb-3">Boxe</h4>
+                            </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-2">
+                            <div class="text-center modalidades">
+                                <img class="w-50" src="./images/icons/yoga-vector.png" alt="">
+                                <h4 class="mt-3 mb-3">Yoga</h4>
+                            </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-2">
+                            <div class="text-center modalidades">
+                                <img class="w-50" src="./images/icons/pilates-vector.png" alt="">
+                                <h4 class="mt-3 mb-3">Pilates</h4>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5 mb-5" id="planos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center fw-bold mb-5">Que tal começar agora?</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 planos-title pt-3">
+                        <h3 class="text-center p-3">Básico</h3>
+                            <div>
+                                <h5 class="text-center mt-4">Área de Musculação e Aeróbio</h5>
+                                <p><i class="bi bi-check-circle-fill fs-1"></i></p>
+                                <h5 class="text-center mt-4">Instrutores *</h5>
+                                <p><i class="bi bi-check-circle-fill fs-1"></i></p>
+                                <h5 class="text-center mt-4">Leve um amigo *</h5>
+                                <p><i class="bi bi-x-circle fs-1"></i></p>
+                                <h5 class="text-center mt-4">Armário Privado</h5>
+                                <p><i class="bi bi-x-circle fs-1"></i></p>
+                                <h5 class="text-center mt-4">Área de Banho *</h5>
+                                <p><i class="bi bi-x-circle fs-1"></i></p>
+                                </br>
+                                <h4 class="fs-1 text-center"><small class="fs-6">R$</small>59<small class="fs-4">,90</small></h4>
+                            </div>
+                    </div>
+                    <div class="col-4 planos-title pt-3 pb-3 bg-blue">
+                        <h3 class="text-center p-3">SMASH</h3>
+                        <div>
+                            <h5 class="text-center mt-4">Área de Musculação e Aeróbio</h5>
+                            <p><i class="bi bi-check-circle-fill fs-1"></i></p>
+                            <h5 class="text-center mt-4">Instrutores *</h5>
+                            <p><i class="bi bi-check-circle-fill fs-1"></i></p>
+                            <h5 class="text-center mt-4">Leve um amigo *</h5>
+                            <p><i class="bi bi-check-circle-fill fs-1"></i></p>
+                            <h5 class="text-center mt-4">Armário Privado</h5>
+                            <p><i class="bi bi-x-circle fs-1"></i></p>
+                            <h5 class="text-center mt-4">Área de Banho *</h5>
+                            <p><i class="bi bi-x-circle fs-1"></i></p>
+                            </br>
+                            <h4 class="fs-1 text-center"><small class="fs-6">R$</small>69<small class="fs-4">,90</small></h4>
+                        </div>
+                    </div>
+                    <div class="col-4 planos-title pt-3">
+                        <h3 class="text-center p-3">+Ultra</h3>
+                        <div>
+                            <h5 class="text-center mt-4">Área de Musculação e Aeróbio</h5>
+                            <p><i class="bi bi-check-circle-fill fs-1"></i></p>
+                            <h5 class="text-center mt-4">Instrutores *</h5>
+                            <p><i class="bi bi-check-circle-fill fs-1"></i></p>
+                            <h5 class="text-center mt-4">Leve um amigo *</h5>
+                            <p><i class="bi bi-check-circle-fill fs-1"></i></p>
+                            <h5 class="text-center mt-4">Armário Privado</h5>
+                            <p><i class="bi bi-check-circle-fill fs-1"></i></p>
+                            <h5 class="text-center mt-4">Área de Banho *</h5>
+                            <p><i class="bi bi-check-circle-fill fs-1"></i></p>
+                            </br>
+                            <h4 class="fs-1 text-center"><small class="fs-6">R$</small>89<small class="fs-4">,90</small></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="container p-5">
+                            <p class="text-center">
+                                <button type="button" class="btn btn-primary fw-bold mt-1">Faça sua matrícula agora!</button>
+                            </p>
+                            <p class="text-center descricao"><small>Você será encaminhado para a nossa plataforma de matrícula e cobrança.</small></p>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-center descricao">* Consultar na unidade escolhida o horário em que os instrutores de cada modalidade estarão disponíveis</p>
+                        <p class="text-center descricao">* Leve um amigo: a pessoa convidada só terá acesso à área de musculação e aeróbio durante o tempo em que você estiver presente na unidade.</p>
+                        <p class="text-center descricao">* Área de banho inclui: chuveiros individuais, secador de cabelo, sabonete líquido, shampoo e condicionador</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco">
+            <div class="container">
+                <h1 class="text-center fw-bold mb-5">Fala com a gente:</h1>
+            
+                <div class="row">
+                    <div class="col-sm-12 col-md-5 text-center">
+                        <h3 class="section-title fs-4 text-colored mb-3">
+                            <i class="bi bi-chat-right-dots-fill"></i>
+                            Envie uma mensagem
+                        </h3>
+                        <form class="mb-5">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control w-100" id="float-nome" placeholder="">
+                                <label for="float-nome">Nome:</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="float-email" placeholder="">
+                                <label for="float-email">E-mail:</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="float-textarea" placeholder=""></textarea>
+                                <label for="float-textarea">Mensagem</label>
+                            </div>
+                            <button type="button" class="btn btn-primary fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-sm-2 col-md-2">
+                    </div>
+                    <div class="col-sm-12 col-md-5">
+                        <form>
+                            <div class="row">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Redes sociais
+                                </h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço
+                                </h3>
+                                <p>
+                                    R. Oscar Alho de Alencar, 145 - Vl. Maromba - São Paulo - SP
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <footer class="footer text-center p-4 mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="./images/visual-id/logo-white.png" class="mb-4" alt="">
+                        </div>
+                        <p>
+                            &copy;SMASH Fit - 2023 - Design por <a href="https://github.com/hsanfilippo" title="Acessar Perfil">hsanfilippo</a>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </section>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
